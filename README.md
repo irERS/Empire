@@ -1,6 +1,10 @@
-# Empire
+# Empire (specialized for MacOS)
 
-## This project is no longer supported
+## Special fork Empire
+
+This fork aims to advance Empire as a MacOS c2. Special modules will be developed for the latest versions of MacOS (Catalina at the moment). The core of Empire might be changed and customized accordingly. Feel free to contribute or get in touch for a roadmap and collaboration in this project.
+
+This fork started in February 2020, from this point, development in started. A beta version is expected around April 2020, with functionalities added like keyloggers, screenshot possibilities, and automated data collection.
 
 Empire is a post-exploitation framework that includes a pure-PowerShell2.0 Windows agent, and a pure Python 2.6/2.7 Linux/OS X agent. It is the merge of the previous PowerShell Empire and Python EmPyre projects. The framework offers cryptologically-secure communications and a flexible architecture. On the PowerShell side, Empire implements the ability to run PowerShell agents without needing powershell.exe, rapidly deployable post-exploitation modules ranging from key loggers to Mimikatz, and adaptable communications to evade network detection, all wrapped up in a usability-focused framework. PowerShell Empire premiered at [BSidesLV in 2015](https://www.youtube.com/watch?v=Pq9t59w0mUI) and Python EmPyre premeiered at HackMiami 2016.
 
